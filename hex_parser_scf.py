@@ -1,13 +1,9 @@
 import codecs
 import os
 
-with open('/Users/nprathap/scfprogram/CMPE202/SCFFile.txt', 'r') as file1:
-    out1=file1.read()
-    out2 = out1.replace(" ","")
-    parsed_out = out2.replace("\n","")
-
-#print(parsed_out)
-
+with open ( '/Users/nprathap/scfprogram/SCFFile.tlv','rb') as tlv:
+	parsed_out = tlv.read().hex()
+	#print(parsed_out)
 #function to call for converting hexadecimal length to decimal value
 def hex_to_dec(hex1): 
 	out = int(hex1,16)
@@ -153,5 +149,4 @@ for i in range(1,11):
 		#print(value)
 		parsed_out_body=parsed_out_body[dec_length*2:]
 		print("value of"+str(i)+"is: ", value)
-
 
