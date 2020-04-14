@@ -1,0 +1,102 @@
+NPRATHAP-M-J18Z:CMPE202 nprathap$ python3 hex_parser_scf.py
+####################################################################################
+
+####################################################################################
+
+####################################################################################
+
+type1is:  01
+length of1is:  2
+value of1is:  0102
+type2is:  02
+length of2is:  2
+value of2is:  0138
+type3is:  03
+length of3is:  127
+type4is:  04
+length of4is:  55
+value of4is:  434e3d676967616e7469632d362e636973636f2e636f6d3b4f553d5654473b4f3d416c7068613b4c3d534a3b53543d43413b433d555300
+CN=gigantic-6.cisco.com;OU=VTG;O=Alpha;L=SJ;ST=CA;C=US
+type5is:  05
+length of5is:  8
+value of5is:  24491f10703fea9b
+type6is:  06
+length of6is:  55
+value of6is:  434e3d676967616e7469632d362e636973636f2e636f6d3b4f553d5654473b4f3d416c7068613b4c3d534a3b53543d43413b433d555300
+CN=gigantic-6.cisco.com;OU=VTG;O=Alpha;L=SJ;ST=CA;C=US
+type7is:  07
+length of7is:  15
+type8is:  08
+length of8is:  1
+value of8is:  01
+type9is:  09
+length of9is:  8
+type10is:  0a
+length of10is:  1
+value of10is:  00
+type11is:  0b
+length of11is:  1
+value of11is:  01
+type12is:  0c
+length of12is:  128
+value of12is:  356df0f8aaf1056ef7ab1b5d3edf845ef3495b4f39957699bb061680e8defb08a44fb4c3f72abe860a708836ab0a1752b0cd1a608029ae7a47a8953eef27653e7c70dbe053aa6e9f2677e55e837cd6d966aec5bb6ebca203ee3d077a9004a2158b9bc3f5b2cd46e7e3a227c9197c65e92e9fbc02f399ab78c3be5ce92d7250bc
+type13is:  0e
+length of13is:  12
+value of13is:  43544c46696c652e746c7600
+CTLFile.tlv
+type14is:  0f
+length of14is:  4
+value of14is:  554ad7b7
+type15is:  0d
+We hit type:0d, End of SCF header
+
+####################################################################################
+
+####################################################################################
+
+####################################################################################
+
+type1is:  01
+length of1is:  2
+length of1is:  2
+value of1is:  1147 --> record length
+type2is:  02
+length of2is:  11
+length of2is:  11
+value of2is:  676967616e7469632d3600
+gigantic-6 --> Subject DNS name.
+type3is:  03
+length of3is:  55
+length of3is:  55
+value of3is:  434e3d676967616e7469632d362e636973636f2e636f6d3b4f553d5654473b4f3d416c7068613b4c3d534a3b53543d43413b433d555300
+CN=gigantic-6.cisco.com;OU=VTG;O=Alpha;L=SJ;ST=CA;C=US --> Subject name
+type4is:  04
+length of4is:  2
+length of4is:  2
+value of4is:  0000
+ --> Subject function/role
+type5is:  05
+length of5is:  55
+length of5is:  55
+value of5is:  434e3d676967616e7469632d362e636973636f2e636f6d3b4f553d5654473b4f3d416c7068613b4c3d534a3b53543d43413b433d555300
+CN=gigantic-6.cisco.com;OU=VTG;O=Alpha;L=SJ;ST=CA;C=US --> Subject certificate issuer name
+type6is:  06
+length of6is:  8
+length of6is:  8
+value of6is:  24491f10703fea9b --> Subject certificate serial number
+type7is:  07
+length of7is:  140
+length of7is:  140
+value of7is:  30818902818100b0c47345cee51d2d16dcad7fbb08322103a20bf403f5ae1bfa5b400235cec6e409bbfc759357a42103805e8c089d07839181d93ace501943246a40426e4600deab9284c0e50945e9fb6609282bee15fd75d6143f77a9f8b8973bd0ea313e7b25238233fabe0c4482cfc8f723d2053299156c4ca912b213404d117ff57ca6db050203010001 --> Subject public key
+type8is:  08
+length of8is:  128
+length of8is:  128
+value of8is:  504e52ac7b03fdee02ced5b49e2739dc294b591eb966297aede851dc0e31c163fc6c18e30c5cbc085e0c42646eb39bbfd3990dc6479f1019fa7e8224e076be08033df021018e4e7ca843e42ab49babf67a6790773661368074f2a3d40d7b14c9f398b25f0fbff99326ab4d75bce5f59159ee87b5d14076175d5dc4366732c8af --> Subject certificate signature
+type9is:  09
+length of9is:  712
+length of9is:  712
+value of9is:  308202c43082022da003020102020824491f10703fea9b300d06092a864886f70d01010505003064311d301b06035504030c14676967616e7469632d362e636973636f2e636f6d310c300a060355040b0c03565447310e300c060355040a0c05416c706861310b300906035504070c02534a310b300906035504080c024341310b3009060355040613025553301e170d3131303231303232313232365a170d3136303231303232313232365a3064311d301b06035504030c14676967616e7469632d362e636973636f2e636f6d310c300a060355040b0c03565447310e300c060355040a0c05416c706861310b300906035504070c02534a310b300906035504080c024341310b300906035504061302555330819f300d06092a864886f70d010101050003818d0030818902818100b0c47345cee51d2d16dcad7fbb08322103a20bf403f5ae1bfa5b400235cec6e409bbfc759357a42103805e8c089d07839181d93ace501943246a40426e4600deab9284c0e50945e9fb6609282bee15fd75d6143f77a9f8b8973bd0ea313e7b25238233fabe0c4482cfc8f723d2053299156c4ca912b213404d117ff57ca6db050203010001a37f307d300b0603551d0f0404030202bc30270603551d250420301e06082b0601050507030106082b0601050507030206082b0601050507030530260603551d11041f301d861b687474703a2f2f676967616e7469632d362e636973636f2e636f6d301d0603551d0e04160414d054bb7f25be432e2416ceec0d623be1e2711353300d06092a864886f70d010105050003818100504e52ac7b03fdee02ced5b49e2739dc294b591eb966297aede851dc0e31c163fc6c18e30c5cbc085e0c42646eb39bbfd3990dc6479f1019fa7e8224e076be08033df021018e4e7ca843e42ab49babf67a6790773661368074f2a3d40d7b14c9f398b25f0fbff99326ab4d75bce5f59159ee87b5d14076175d5dc4366732c8af --> Subject X509.v3 certificate
+type10is:  0a
+length of10is:  4
+length of10is:  4
+value of10is:  170078314 --> Subject IP address
