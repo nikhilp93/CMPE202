@@ -1,7 +1,10 @@
 import codecs
 import os
 
-with open('/Users/nprathap/scfprogram/CMPE202/SCFFile.txt', 'r') as file1:
+dirname = os.path.dirname(os.path.abspath(__file__))
+target_file = os.path.join(dirname, 'SCFFile.txt');
+
+with open(target_file, 'r') as file1:
     out1=file1.read()
     out2 = out1.replace(" ","")
     parsed_out = out2.replace("\n","")
