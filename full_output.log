@@ -79,7 +79,6 @@ type4is:  04
 length of4is:  2
 length of4is:  2
 value of4is:  0000
- --> Subject function/role
 type5is:  05
 length of5is:  55
 length of5is:  55
@@ -88,7 +87,7 @@ CN=gigantic-6.cisco.com;OU=VTG;O=Alpha;L=SJ;ST=CA;C=US --> Subject certificate i
 type6is:  06
 length of6is:  8
 length of6is:  8
-value of6is:  24491f10703fea9b --> Subject certificate serial number
+value of6is:  2614655214128458395 --> Subject certificate serial number
 type7is:  07
 length of7is:  140
 length of7is:  140
@@ -128,7 +127,6 @@ type4is:  04
 length of4is:  2
 length of4is:  2
 value of4is:  0002
- --> Subject function/role
 type5is:  05
 length of5is:  55
 length of5is:  55
@@ -137,7 +135,7 @@ CN=gigantic-6.cisco.com;OU=VTG;O=Alpha;L=SJ;ST=CA;C=US --> Subject certificate i
 type6is:  06
 length of6is:  8
 length of6is:  8
-value of6is:  24491f10703fea9b --> Subject certificate serial number
+value of6is:  2614655214128458395 --> Subject certificate serial number
 type7is:  07
 length of7is:  140
 length of7is:  140
@@ -177,7 +175,6 @@ type4is:  04
 length of4is:  2
 length of4is:  2
 value of4is:  0002
- --> Subject function/role
 type5is:  05
 length of5is:  61
 length of5is:  61
@@ -186,7 +183,7 @@ CN=gigantic-7.cisco.com;OU=vtg;O=cisco;L=san jose;ST=ca;C=US --> Subject certifi
 type6is:  06
 length of6is:  8
 length of6is:  8
-value of6is:  6330981c017c4743 --> Subject certificate serial number
+value of6is:  7147379854688405315 --> Subject certificate serial number
 type7is:  07
 length of7is:  140
 length of7is:  140
@@ -226,7 +223,6 @@ type4is:  04
 length of4is:  2
 length of4is:  2
 value of4is:  0004
- --> Subject function/role
 type5is:  05
 length of5is:  48
 length of5is:  48
@@ -235,7 +231,7 @@ CN=CAPF-2076a1a2;OU=VTG;O=Alpha;L=SJ;ST=CA;C=US --> Subject certificate issuer n
 type6is:  06
 length of6is:  16
 length of6is:  16
-value of6is:  615dd8840a63eb4119be843e201550e0 --> Subject certificate serial number
+value of6is:  129422390660788063996198959592064241888 --> Subject certificate serial number
 type7is:  07
 length of7is:  140
 length of7is:  140
@@ -275,7 +271,6 @@ type4is:  04
 length of4is:  2
 length of4is:  2
 value of4is:  0000
- --> Subject function/role
 type5is:  05
 length of5is:  67
 length of5is:  67
@@ -284,7 +279,7 @@ CN=ITLRECOVERY_gigantic-6.cisco.com;OU=CTG;O=Alpha;L=SJ;ST=CA;C=US --> Subject c
 type6is:  06
 length of6is:  16
 length of6is:  16
-value of6is:  5b7328d0a02932d816d59eeef6ec9d18 --> Subject certificate serial number
+value of6is:  121557689580568206279812297094272425240 --> Subject certificate serial number
 type7is:  07
 length of7is:  140
 length of7is:  140
@@ -324,7 +319,6 @@ type4is:  04
 length of4is:  2
 length of4is:  2
 value of4is:  0002
- --> Subject function/role
 type5is:  05
 length of5is:  59
 length of5is:  59
@@ -333,7 +327,7 @@ CN=ccm-sjcctg-013.cisco.com;OU=CTG;O=Alpha;L=SJ;ST=CA;C=US --> Subject certifica
 type6is:  06
 length of6is:  16
 length of6is:  16
-value of6is:  418c549abc251e2f2609ecf6a092d22f --> Subject certificate serial number
+value of6is:  87128457267986196186236383524849635887 --> Subject certificate serial number
 type7is:  07
 length of7is:  140
 length of7is:  140
@@ -350,3 +344,4 @@ type10is:  0a
 length of10is:  4
 length of10is:  4
 value of10is:  169903693 --> Subject IP address
+NPRATHAP-M-J18Z:CMPE202 nprathap$
