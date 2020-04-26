@@ -69,6 +69,13 @@ while parsed_out_body!="":
 	print("####################################################################################\n")
 	print("####################################################################################\n")
 
+	"""
+	import itertools
+
+	for i in itertools.count():
+	    if time.time() - start >= timeout:
+	        break
+	"""
 
 	for i in range(1,11):
 
@@ -110,13 +117,13 @@ while parsed_out_body!="":
 				print(codecs.decode(value, "hex").decode('utf-8'),"--> Subject DNS name. ")
 			elif type == "03":
 				print(codecs.decode(value, "hex").decode('utf-8'),"--> Subject name ")
-			elif type == "04":
-				print(codecs.decode(value, "hex").decode('utf-8'),"--> Subject function/role ")
 			elif type == "05":
 				print(codecs.decode(value, "hex").decode('utf-8'),"--> Subject certificate issuer name ")
 			#elif type=="09":
 			#	print(codecs.decode(value, "hex").decode('utf-8'),"--> --> Subject X509.v3 certificate ")
-			
+		
+		elif type == "04":
+				print("value of"+str(i)+ "is:", value, "--> Subject function/role ")	
 			
 		elif type=="01":
 			value=parsed_out_body[:dec_length*2]
@@ -125,7 +132,7 @@ while parsed_out_body!="":
 		elif type=="06":
 			value=parsed_out_body[:dec_length*2]
 			parsed_out_body=parsed_out_body[dec_length*2:]
-			print("value of"+str(i)+"is: ", value, "--> Subject certificate serial number")
+			print("value of"+str(i)+"is: ", hex_to_dec(value), "--> Subject certificate serial number")
 		elif type=="07":
 			value=parsed_out_body[:dec_length*2]
 			parsed_out_body=parsed_out_body[dec_length*2:]
